@@ -1,0 +1,82 @@
+[
+    {
+        "select": "CBC檢驗:WBC、Hb、PLT",
+        "index": 0,
+        "title": [
+            "WBC",
+            "Band",
+            "Seg",
+            "Lym",
+            "Hb",
+            "Hct",
+            "PLT"
+        ]
+    },
+    {
+        "select": "電解質與腎功能檢驗:Na、K、Ca(Free,Total)、Mg、P、BUN、Cr",
+        "index": 1,
+        "title": [
+            "Na",
+            "K",
+            "Cl",
+            "Ca(Free)",
+            "Ca(Total)",
+            "Mg",
+            "P",
+            "BUN",
+            "Cr"
+        ]
+    },
+    {
+        "select": "肝功能檢驗:AST、ALT、rGGT、Alkp、Alb",
+        "index": 2,
+        "title": [
+            "AST",
+            "ALT",
+            "rGGT",
+            "Alkp",
+            "Alb"
+        ]
+    },
+    {
+        "select": "心臟功能檢驗:ck、ck-MB、BNP、Troponin I",
+        "index": 3,
+        "title": [
+            "ck",
+            "ck-MB",
+            "BNP",
+            "Troponin I"
+        ]
+    },
+    {
+        "select": "凝血功能檢驗:PT、APiT、INR",
+        "index": 4,
+        "title": [
+            "PT",
+            "APiT",
+            "INR"
+        ]
+    },
+    {
+        "select": "GAS檢驗:PH、pCO2、pO2、HCO3、BE、Sample、O2Sat、FiO2",
+        "index": 5,
+        "title": [
+            "PH",
+            "pCO2",
+            "pO2",
+            "HCO3",
+            "BE",
+            "Sample",
+            "O2Sat",
+            "FiO2"
+        ]
+    },
+    {
+        "select": "Glucose檢驗:糖化血色素、空腹血糖",
+        "index": 6,
+        "title": [
+            "糖化血色素",
+            "空腹血糖"
+        ]
+    }
+]
