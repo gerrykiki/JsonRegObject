@@ -1,0 +1,28 @@
+[
+    {
+        "item": "Respirator",
+        "ParseValue": [
+            "Restriction"
+        ]
+    },
+    {
+        "item": "TPN",
+        "ParseValue": []
+    },
+    {
+        "item": "NPO",
+        "ParseValue": []
+    },
+    {
+        "item": "Anti",
+        "ParseValue": []
+    },
+    {
+        "item": "Foley",
+        "ParseValue": []
+    },
+    {
+        "item": "Drain",
+        "ParseValue": []
+    }
+]
