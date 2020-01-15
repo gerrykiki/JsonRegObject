@@ -1,28 +1,35 @@
 [
     {
         "item": "Respirator",
-        "ParseValue": [
-            "Restriction"
-        ]
+        "ParseValueUD": [
+            "Restriction",
+            "TPN"
+        ],
+        "ParseValueTRT": []
     },
     {
         "item": "TPN",
-        "ParseValue": []
+        "ParseValueUD": [],
+        "ParseValueTRT": []
     },
     {
         "item": "NPO",
-        "ParseValue": []
+        "ParseValueUD": [],
+        "ParseValueTRT": []
     },
     {
         "item": "Anti",
-        "ParseValue": []
+        "ParseValueUD": [],
+        "ParseValueTRT": []
     },
     {
         "item": "Foley",
-        "ParseValue": []
+        "ParseValueUD": [],
+        "ParseValueTRT": []
     },
     {
         "item": "Drain",
-        "ParseValue": []
+        "ParseValueUD": [],
+        "ParseValueTRT": []
     }
 ]
