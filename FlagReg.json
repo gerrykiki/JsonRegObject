@@ -2,36 +2,41 @@
     {
         "item": "InvasiveRespirator",
         "ParseValueUD": [],
-        "ParseValueTRT": ["侵入式呼吸器"]
+        "ParseValueTRT": ["侵入性氧療設備"]
     },
     {
         "item": "NonInvasiveRespirator",
         "ParseValueUD": [],
-        "ParseValueTRT": ["非侵入式呼吸器"]
+        "ParseValueTRT": ["非侵入性氧療設備"]
     },
     {
         "item": "TPN",
-        "ParseValueUD": [],
+        "ParseValueUD": ["tpn\\s"],
         "ParseValueTRT": []
     },
     {
         "item": "NPO",
         "ParseValueUD": [],
-        "ParseValueTRT": []
+        "ParseValueTRT": ["npo\\s"]
     },
     {
         "item": "Anti",
-        "ParseValueUD": [],
+        "ParseValueUD": ["ampicillin","oxacillin","unasyn","soonmelt","tazocin","mepem","meropenem","imipenem",
+                        "cefazolin","cefuroxime","cefotaxime","claforan","rocephin","ceftriax","ceftazi","cefepime","moxifloxacin",
+                         "ciprofloxacin","levofloxacin","isepamicin","genta","exacin","metronidazole","teico","vancomycin","daptomycin",
+                         "linezolid","fluconazole","ambisome","fungizone","zovirax"],
+        
         "ParseValueTRT": []
     },
     {
         "item": "Foley",
         "ParseValueUD": [],
-        "ParseValueTRT": []
+        "ParseValueTRT": ["foley\\s"]
     },
     {
         "item": "Drain",
         "ParseValueUD": [],
-        "ParseValueTRT": []
+        "ParseValueTRT": ["Chest Tube","External Ventricular Drain","Hemo Vac","Lumbar Drain","NG Sump","Pigtail Drain",
+                         "Penrose Drain","PTCD Drain","PTGBD","T-Tube Drain","Subdural Drain"]
     }
 ]
