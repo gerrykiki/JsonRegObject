@@ -1,11 +1,13 @@
 [
     {
-        "item": "Respirator",
-        "ParseValueUD": [
-            "Restriction",
-            "TPN"
-        ],
-        "ParseValueTRT": []
+        "item": "InvasiveRespirator",
+        "ParseValueUD": [],
+        "ParseValueTRT": ["侵入式呼吸器"]
+    },
+    {
+        "item": "NonInvasiveRespirator",
+        "ParseValueUD": [],
+        "ParseValueTRT": ["非侵入式呼吸器"]
     },
     {
         "item": "TPN",
