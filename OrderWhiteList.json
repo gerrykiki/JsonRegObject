@@ -10,14 +10,14 @@
         },
         "mappings": [
             {
-                    "key": "WhiteList",
+                    "key": "UDGNAME",
                     "regex_str": "(Ampicillin\\s+sod\\s+for\\s+inj\\s+500\\s+mg)",
                     "regex_flags": "ism",
                     "position": 1
             },
             {
-                    "key": "BlackList",
-                    "regex_str": "",
+                    "key": "UDRPNAME",
+                    "regex_str": "(Ampolin\\s+inj\\s+500\\s+mg\\s+\\\"YF\\\")",
                     "regex_flags": "ism",
                     "position": 1
             }
