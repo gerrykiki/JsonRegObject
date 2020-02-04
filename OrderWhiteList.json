@@ -1,0 +1,26 @@
+[
+    {
+        "parser_name": "Prescription White List",
+        "apply_condition":  {
+            "name": "Prescription",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
+        "mappings": [
+            {
+                    "key": "WhiteList",
+                    "regex_str": "(Ampicillin\\s+sod\\s+for\\s+inj\\s+500\\s+mg)",
+                    "regex_flags": "ism",
+                    "position": 1
+            },
+            {
+                    "key": "BlackList",
+                    "regex_str": "",
+                    "regex_flags": "ism",
+                    "position": 1
+            }
+        ]
+    }
+]
