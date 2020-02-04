@@ -3,20 +3,44 @@
         "apply_condition": null,
         "mappings": [
         {
-                "key": "飲食類別",
+                "key": "生化類別",
                 "regex_str": "(CHEST\\s+KUB\\s+\\(FOR\\s+BABY\\)\\s+PORTABLE)|(BRAIN\\s+ECHO\\s+\\(NBD\\))",
                 "regex_flags": "ism",
                 "position": 1
         },
         {
-                "key": "管路類別",
+                "key": "血液類別",
                 "regex_str": "(BLOOD\\s+GAS)|(Atypical\\s+Respiratory\\s+Panel)|(BLOOD\\s+PRODUCTS\\s+IRRADIATION)|(Aliqot\\s+and\\s+storage\\s+of\\s+blood)",
                 "regex_flags": "ism",
                 "position": 1
         },
         {
-                "key": "呼吸類別",
+                "key": "培養類別",
                 "regex_str": "(NT-pro-BNP)|(ANTIBODY\\s+SCREENING)",
+                "regex_flags": "ism",
+                "position": 1
+        },
+        {
+                "key": "GAS類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+        },
+        {
+                "key": "Glu類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+        },
+        {
+                "key": "放射類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+        },
+        {
+                "key": "其他類別",
+                "regex_str": "",
                 "regex_flags": "ism",
                 "position": 1
         }
