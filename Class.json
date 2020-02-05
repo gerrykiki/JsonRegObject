@@ -46,5 +46,71 @@
                 "position": 1
             }
         ]
+    },
+    {
+        "parser_name": "Prescription",
+        "apply_condition": "Prescription",
+        "mappings": [
+            {
+                "key": "抗生素類別",
+                "regex_str": "(Ampicillin\\s+sod\\s+for\\s+inj\\s+500\\s+mg)",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "輸液類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "心血管類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "麻醉鎮定類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "其他類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            }
+        ]
+    },
+    {
+        "parser_name": "Treatment",
+        "apply_condition": "Treatment",
+        "mappings": [
+            {
+                "key": "飲食類別",
+                "regex_str": "(Steam\\s+Inhalation\\s+With\\s+Medication)",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "呼吸類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "管路類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "其他類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            }
+        ]
     }
 ]
