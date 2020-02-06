@@ -1,7 +1,13 @@
 [
     {
-        "parser_name": "Non Lab Exam Report",
-        "apply_condition": "NonLabExamReport",
+        "parser_name": "NonLabExamReport",
+        "apply_condition":  {
+            "name": "NonLabExamReport",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
         "mappings": [
             {
                 "key": "生化類別",
@@ -49,7 +55,13 @@
     },
     {
         "parser_name": "Prescription",
-        "apply_condition": "Prescription",
+        "apply_condition":  {
+            "name": "Prescription",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
         "mappings": [
             {
                 "key": "抗生素類別",
@@ -85,7 +97,13 @@
     },
     {
         "parser_name": "Treatment",
-        "apply_condition": "Treatment",
+        "apply_condition":  {
+            "name": "Treatment",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
         "mappings": [
             {
                 "key": "飲食類別",
