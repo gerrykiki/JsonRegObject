@@ -1,0 +1,56 @@
+[
+    {
+        "parser_name": "TPN Order",
+        "apply_condition":  {
+            "name": "TPN Order",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
+        "mappings": [
+            {
+                "key": "AA",
+                "regex_str": "total\\s+(\\d+)",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "Glu",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "Na",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "K",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "Ca",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "P",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "Mg",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "position": 1
+            }
+        ]
+    }
+]
