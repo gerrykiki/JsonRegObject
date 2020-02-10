@@ -1,0 +1,45 @@
+[
+    {
+        "parser_name": "NonLab Result",
+        "apply_condition": {
+            "name": "Atypical Respiratory Panel|Atypical Respiratory Panel 2|Atypical Respiratory Panel 3|Atypical Respiratory Panel 4|Atypical Respiratory Panel 5|CBC|PH|HB|PO2",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
+        "mappings": [
+            {
+                "key": "Hb",
+                "regex_str": "Hb:\\s+\\((\\d+.\\d+)\\)",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "PH",
+                "regex_str": "PH:\\s+\\((\\d+.\\d+)\\)",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "PO2",
+                "regex_str": "PO2:\\s+\\((\\d+)\\)",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "FIO2",
+                "regex_str": "FIO2:\\s+\\((\\d+.\\d+)\\)",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "HCO3",
+                "regex_str": "HCO3:\\s+\\((\\d+.\\d+)\\)",
+                "regex_flags": "ism",
+                "position": 1
+            }
+        ],
+        "summary": "[PH;-]/[Hb;-]/[PO2;-]/[FIO2;-]/[HCO3;-]"
+    }
+]
