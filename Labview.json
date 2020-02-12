@@ -1,8 +1,8 @@
 [
     {
-        "parser_name": "mg",
+        "parser_name": "Labview value",
         "apply_condition": {
-            "name": "mg",
+            "name": "mg|pct",
             "sample": null,
             "lab": null,
             "start_time": null,
@@ -14,19 +14,7 @@
                 "regex_str": "mg\\+*\\s*:\\s*\\(([\\w\\W]+)\\)",
                 "regex_flags": "ism",
                 "position": 1
-            }
-        ]
-    },
-    {
-        "parser_name": "pct",
-        "apply_condition": {
-            "name": "pct",
-            "sample": null,
-            "lab": null,
-            "start_time": null,
-            "end_time": null
-        },
-        "mappings": [
+            },
             {
                 "key": "pct",
                 "regex_str": "Procalcitonin\\s*:\\s*\\(([\\w\\W]+)\\)",
