@@ -2,7 +2,7 @@
     {
         "parser_name": "NonLab Result",
         "apply_condition": {
-            "name": "Atypical Respiratory Panel|Atypical Respiratory Panel 2|Atypical Respiratory Panel 3|Atypical Respiratory Panel 4|Atypical Respiratory Panel 5|CBC|PH|HB|PO2",
+            "name": "Atypical Respiratory Panel|Atypical Respiratory Panel 2|Atypical Respiratory Panel 3|Atypical Respiratory Panel 4|Atypical Respiratory Panel 5|CBC|PH|HB|PO2|WBC",
             "sample": null,
             "lab": null,
             "start_time": null,
