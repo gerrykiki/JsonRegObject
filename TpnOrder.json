@@ -2,9 +2,8 @@
     {
         "parser_name": "TPN Order",
         "apply_condition":  {
-            "name": "TPN Order",
-            "sample": null,
-            "lab": null,
+            "name": "TPN ",
+            "name_regex_flags": "ism",
             "start_time": null,
             "end_time": null
         },
