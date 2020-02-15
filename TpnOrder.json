@@ -2,7 +2,7 @@
     {
         "parser_name": "TPN Order",
         "apply_condition":  {
-            "name": "TPN ",
+            "name": "^TPN\\s+",
             "name_regex_flags": "ism",
             "start_time": null,
             "end_time": null
