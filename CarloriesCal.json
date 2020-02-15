@@ -1,0 +1,30 @@
+[
+    {
+        "nam": "10%TPN",
+        "proportion": 0.34
+    },
+    {
+        "nam": "15%TPN",
+        "proportion": 0.51
+    },
+    {
+        "nam": "SMOF",
+        "proportion": 1.8
+    },
+    {
+        "nam": "D10",
+        "proportion": 0.34
+    },
+    {
+        "nam": "D12",
+        "proportion": 0.408
+    },
+    {
+        "nam": "D50",
+        "proportion": 1.7
+    },
+    {
+        "nam": "taita",
+        "proportion": 0.34
+    }
+]
