@@ -1,0 +1,32 @@
+[
+    {
+        "parser_name": "White List",
+        "mappings": [
+            {
+                    "key": "UDGNAME",
+                    "regex_str": "(Ampicillin\\s+sod\\s+for\\s+inj\\s+500\\s+mg)",
+                    "regex_flags": "ism"
+            },
+            {
+                    "key": "UDRPNAME",
+                    "regex_str": "(Ampolin\\s+inj\\s+500\\s+mg\\s+\\\"YF\\\")",
+                    "regex_flags": "ism"
+            }
+        ]
+    },
+    {
+        "parser_name": "Black List",
+        "mappings": [
+            {
+                    "key": "UDGNAME",
+                    "regex_str": "(Ampicillin\\s+sod\\s+for\\s+inj\\s+500\\s+mg)",
+                    "regex_flags": "ism"
+            },
+            {
+                    "key": "UDRPNAME",
+                    "regex_str": "(Ampolin\\s+inj\\s+500\\s+mg\\s+\\\"YF\\\")",
+                    "regex_flags": "ism"
+            }
+        ]
+    }
+]
