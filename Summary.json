@@ -41,5 +41,36 @@
             }
         ],
         "summary": "[PH;-]/[Hb;-]/[PO2;-]/[FIO2;-]/[HCO3;-]"
+    },
+    {
+        "parser_name": "Chronic table",
+        "apply_condition": {
+            "name": "WBC|Na|K|Ca",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
+        "mappings": [
+            {
+                "key": "Na",
+                "regex_str": "Na:\\s+\\((\\d+.\\d+)\\)",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "K",
+                "regex_str": "K:\\s+\\((\\d+.\\d+)\\)",
+                "regex_flags": "ism",
+                "position": 1
+            },
+            {
+                "key": "Ca",
+                "regex_str": "Ca:\\s+\\((\\d+)\\)",
+                "regex_flags": "ism",
+                "position": 1
+            }
+        ],
+        "summary": "[Na:-],[K:-],[Ca:-]"
     }
 ]
