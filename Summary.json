@@ -54,19 +54,19 @@
         "mappings": [
             {
                 "key": "Na",
-                "regex_str": "Na\\s+([\\w\\W+]+)\\s+\\(\\)",
+                "regex_str": "Na\\s+(\\d+(\\.\\d+)?)\\s+\\(\\)",
                 "regex_flags": "ism",
                 "position": 1
             },
             {
                 "key": "K",
-                "regex_str": "K\\s+([\\w\\W+]+)\\s+\\(\\)",
+                "regex_str": "K\\s+(\\d+(\\.\\d+)?)\\s+\\(\\)",
                 "regex_flags": "ism",
                 "position": 1
             },
             {
                 "key": "Ca",
-                "regex_str": "Ca\\s+([\\w\\W+]+)\\s+\\(\\)",
+                "regex_str": "Ca\\s+(\\d+(\\.\\d+)?)\\s+\\(\\)",
                 "regex_flags": "ism",
                 "position": 1
             }
