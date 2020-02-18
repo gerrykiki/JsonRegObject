@@ -19,12 +19,6 @@
                 "sample": "NASO-PHARYNG"
             },
             {
-                "key": "血液類別",
-                "regex_str": "(BLOOD\\s+GAS)|(Atypical\\s+Respiratory\\s+Panel)|(BLOOD\\s+PRODUCTS\\s+IRRADIATION)|(Aliqot\\s+and\\s+storage\\s+of\\s+blood)",
-                "regex_flags": "ism",
-                "sample": "Blood"
-            },
-            {
                 "key": "培養類別",
                 "regex_str": "(NT-pro-BNP)|(ANTIBODY\\s+SCREENING)",
                 "regex_flags": "ism",
