@@ -3,53 +3,56 @@
         "parser_name": "NonLabExamReport",
         "apply_condition":  {
             "name": "NonLabExamReport",
-            "sample": null,
-            "lab": null,
-            "start_time": null,
-            "end_time": null
+            "lab": null
         },
         "mappings": [
             {
                 "key": "生化類別",
                 "regex_str": "(CHEST\\s+KUB\\s+\\(FOR\\s+BABY\\)\\s+PORTABLE)|(BRAIN\\s+ECHO\\s+\\(NBD\\))",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "血液類別",
                 "regex_str": "(BLOOD\\s+GAS)|(Atypical\\s+Respiratory\\s+Panel)|(BLOOD\\s+PRODUCTS\\s+IRRADIATION)|(Aliqot\\s+and\\s+storage\\s+of\\s+blood)",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": "NASO-PHARYNG"
+            },
+            {
+                "key": "血液類別",
+                "regex_str": "(BLOOD\\s+GAS)|(Atypical\\s+Respiratory\\s+Panel)|(BLOOD\\s+PRODUCTS\\s+IRRADIATION)|(Aliqot\\s+and\\s+storage\\s+of\\s+blood)",
+                "regex_flags": "ism",
+                "sample": "Blood"
             },
             {
                 "key": "培養類別",
                 "regex_str": "(NT-pro-BNP)|(ANTIBODY\\s+SCREENING)",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "GAS類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "Glu類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "放射類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "其他類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             }
         ]
     },
@@ -57,41 +60,38 @@
         "parser_name": "Prescription",
         "apply_condition":  {
             "name": "Prescription",
-            "sample": null,
-            "lab": null,
-            "start_time": null,
-            "end_time": null
+            "lab": null
         },
         "mappings": [
             {
                 "key": "抗生素類別",
                 "regex_str": "(Ampicillin\\s+sod\\s+for\\s+inj\\s+500\\s+mg)",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "輸液類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "心血管類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "麻醉鎮定類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "其他類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             }
         ]
     },
@@ -99,35 +99,32 @@
         "parser_name": "Treatment",
         "apply_condition":  {
             "name": "Treatment",
-            "sample": null,
-            "lab": null,
-            "start_time": null,
-            "end_time": null
+            "lab": null
         },
         "mappings": [
             {
                 "key": "飲食類別",
                 "regex_str": "(Steam\\s+Inhalation\\s+With\\s+Medication)",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "呼吸類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "管路類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             },
             {
                 "key": "其他類別",
                 "regex_str": "",
                 "regex_flags": "ism",
-                "position": 1
+                "sample": null
             }
         ]
     }
