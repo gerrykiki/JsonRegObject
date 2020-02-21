@@ -32,5 +32,10 @@
         "item": "Foley",
         "ParseValueUD": [],
         "ParseValueTRT": ["CVC","Hickman","Port-A","Peripherall\\sInserted\\sCentral\\sCatheter","Umbilical\\Venous\\Catheter","Umbilical\\sArterial\\sCatheter"]
+    },
+    {
+        "item": "Drain",
+        "ParseValueUD": ["theophylline","aminophylline","caffeine"],
+        "ParseValueTRT": []
     }
 ]
