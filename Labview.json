@@ -35,7 +35,6 @@
             }
         ]
     },
-    ,
     {
         "parser_name": "Labview value Procalcitonin",
         "apply_condition": {
