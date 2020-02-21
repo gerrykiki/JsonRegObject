@@ -27,25 +27,5 @@
                          "linezolid","fluconazole","ambisome","fungizone","zovirax"],
         
         "ParseValueTRT": []
-    },
-    {
-        "item": "CVC",
-        "ParseValueUD": [],
-        "ParseValueTRT": ["CVC","Hickman","Port-A","Peripherall\\sInserted\\sCentral\\sCatheter","Umbilical\\Venous\\Catheter","Umbilical\\sArterial\\sCatheter"]
-    },
-      {
-        "item": "Xanth",
-        "ParseValueUD": ["theophylline","aminophylline","caffeine"],
-        "ParseValueTRT": []
-    },
-      {
-        "item": "Phototherapy",
-        "ParseValueUD": [],
-        "ParseValueTRT": ["Phototherapy"]
-    },
-      {
-        "item": "DNR",
-        "ParseValueUD": [],
-        "ParseValueTRT": ["DNR"]
     }
 ]
