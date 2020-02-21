@@ -2,7 +2,7 @@
     {
         "item": "InvasiveRespirator",
         "ParseValueUD": [],
-        "ParseValueTRT": ["(?<!非)侵入性氧療設備"]
+        "ParseValueTRT": ["侵入性氧療設備"]
     },
     {
         "item": "NonInvasiveRespirator",
