@@ -1,8 +1,8 @@
 [
     {
-        "parser_name": "Labview value",
+        "parser_name": "Labview value Mg++",
         "apply_condition": {
-            "name": "mg|pct",
+            "name": "mg",
             "sample": null,
             "lab": null,
             "start_time": null,
@@ -11,14 +11,26 @@
         "mappings": [
             {
                 "key": "mg",
-                "regex_str": "mg\\+*\\s*:\\s*\\(([\\w\\W]+)\\)",
-                "regex_flags": "ism",
+                "regex_str": "mg\\s*(\\d+(.\\d+)*)\\s*\\(",
+                "regex_flags": "im",
                 "position": 1
-            },
+            }
+        ]
+    },
+    {
+        "parser_name": "Labview value Ca++",
+        "apply_condition": {
+            "name": "ca\+\+",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
+        "mappings": [
             {
-                "key": "pct",
-                "regex_str": "Procalcitonin\\s*:\\s*\\(([\\w\\W]+)\\)",
-                "regex_flags": "ism",
+                "key": "ca",
+                "regex_str": "\\s*(\\d+(.\\d+)*)\\s*mmol\\/l",
+                "regex_flags": "im",
                 "position": 1
             }
         ]
