@@ -34,5 +34,24 @@
                 "position": 1
             }
         ]
+    },
+    ,
+    {
+        "parser_name": "Labview value Procalcitonin",
+        "apply_condition": {
+            "name": "procalcitonin",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
+        "mappings": [
+            {
+                "key": "pct",
+                "regex_str": "(\\d+(.\\d+)*)\\s*\\(\\s*\\)\\s*ng\\/ml",
+                "regex_flags": "im",
+                "position": 1
+            }
+        ]
     }
 ]
