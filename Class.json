@@ -19,6 +19,12 @@
                 "sample": "NASO-PHARYNG"
             },
             {
+                "key": "血液類別",
+                "regex_str": "",
+                "regex_flags": "ism",
+                "sample": "Blood"
+            },
+            {
                 "key": "培養類別",
                 "regex_str": "(NT-pro-BNP)|(ANTIBODY\\s+SCREENING)",
                 "regex_flags": "ism",
