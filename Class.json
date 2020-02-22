@@ -65,7 +65,7 @@
         "mappings": [
             {
                 "key": "抗生素類別",
-                "regex_str": "(Ampicillin\\s+sod\\s+for\\s+inj\\s+500\\s+mg)",
+                "regex_str": "(Ampicillin\\s+sod\\s+for\\s+inj\\s+500\\s+mg)|Dextrose|MechanicalVentilator|侵入性氧療設備",
                 "regex_flags": "ism",
                 "sample": null
             },
