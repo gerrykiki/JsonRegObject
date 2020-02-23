@@ -2,7 +2,7 @@
     {
         "item": "InvasiveRespirator",
         "ParseValueUD": [],
-        "ParseValueTRT": ["侵入性氧療設備"]
+        "ParseValueTRT": ["(?<!非)侵入性氧療設備"]
     },
     {
         "item": "NonInvasiveRespirator",
@@ -29,13 +29,23 @@
         "ParseValueTRT": []
     },
     {
-        "item": "Foley",
+        "item": "CVC",
         "ParseValueUD": [],
         "ParseValueTRT": ["CVC","Hickman","Port-A","Peripherall\\sInserted\\sCentral\\sCatheter","Umbilical\\Venous\\Catheter","Umbilical\\sArterial\\sCatheter"]
     },
-    {
-        "item": "Drain",
+      {
+        "item": "Xanth",
         "ParseValueUD": ["theophylline","aminophylline","caffeine"],
         "ParseValueTRT": []
+    },
+      {
+        "item": "Phototherapy",
+        "ParseValueUD": [],
+        "ParseValueTRT": ["Phototherapy"]
+    },
+      {
+        "item": "DNR",
+        "ParseValueUD": [],
+        "ParseValueTRT": ["DNR"]
     }
 ]
