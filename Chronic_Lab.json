@@ -1,7 +1,7 @@
 {
     "Biochemical": [], 
     "Blood": [
-        "BLOOD"
+        "CBC","DC","HGB"
     ],
     "Cultivate": [],
     "GAS": [],
