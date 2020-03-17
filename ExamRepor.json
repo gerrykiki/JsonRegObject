@@ -1,6 +1,6 @@
 [
     {
-        "select": "CBC檢驗:WBC、Hb、PLT",
+        "select": "血球記數CBC",
         "index": 0,
         "title": [
             "WBC",
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "select": "電解質與腎功能檢驗:Na、K、Ca(Free,Total)、Mg、P、BUN、Cr",
+        "select": "電解質與腎功能",
         "index": 1,
         "title": [
             "Na",
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "select": "肝功能檢驗:AST、ALT、rGGT、Alkp、Alb",
+        "select": "肝膽功能",
         "index": 2,
         "title": [
             "AST",
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "select": "心臟功能檢驗:ck、ck-MB、BNP、Troponin I",
+        "select": "心肌酵素與BNP",
         "index": 3,
         "title": [
             "ck",
@@ -49,7 +49,7 @@
         ]
     },
     {
-        "select": "凝血功能檢驗:PT、APiT、INR",
+        "select": "凝血功能",
         "index": 4,
         "title": [
             "PT",
@@ -58,7 +58,7 @@
         ]
     },
     {
-        "select": "GAS檢驗:PH、pCO2、pO2、HCO3、BE、Sample、O2Sat、FiO2",
+        "select": "血液氣體分析GAS",
         "index": 5,
         "title": [
             "PH",
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "select": "Glucose檢驗:糖化血色素、空腹血糖",
+        "select": "血糖",
         "index": 6,
         "title": [
             "糖化血色素",
