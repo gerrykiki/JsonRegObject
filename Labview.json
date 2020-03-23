@@ -47,7 +47,7 @@
         "mappings": [
             {
                 "key": "pct",
-                "regex_str": "(\\d+(.\\d+)*)\\s*\\(\\s*\\)\\s*ng\\/ml",
+                "regex_str": "(\\d+(.\\d+)*)\\s*\\(\\s*\\)\\s*ng",
                 "regex_flags": "im",
                 "position": 1
             }
