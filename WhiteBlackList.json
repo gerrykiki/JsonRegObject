@@ -24,7 +24,7 @@
             }       ,
             {
                     "key": "UDRPNAME",
-                    "regex_str": "(Ampolin\\s+inj\\s+500\\s+mg\\s+\\\"YF\\\")",
+                    "regex_str": "",
                     "regex_flags": "ism"
             }     
         ]
