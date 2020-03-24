@@ -21,7 +21,12 @@
                     "key": "UDGNAME",
                     "regex_str": "(Dextrose\\s+inj)",
                     "regex_flags": "ism"
-            }            
+            }       ,
+            {
+                    "key": "UDRPNAME",
+                    "regex_str": "(Ampolin\\s+inj\\s+500\\s+mg\\s+\\\"YF\\\")",
+                    "regex_flags": "ism"
+            }     
         ]
     }
 ]
