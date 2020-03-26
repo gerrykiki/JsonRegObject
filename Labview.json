@@ -29,7 +29,7 @@
         "mappings": [
             {
                 "key": "ca",
-                "regex_str": "\\s*(\\d+(.\\d+)*)\\s*mmol\\/l",
+                "regex_str": "\\s*(\\d+(.\\d+)*)\\s{2,}\\(?\\)?\\s{2,}mmol\\/l",
                 "regex_flags": "im",
                 "position": 1
             }
