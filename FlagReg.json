@@ -31,7 +31,7 @@
     {
         "item": "CVC",
         "ParseValueUD": [],
-        "ParseValueTRT": ["CVC","Hickman","Port-A","Peripherall\\sInserted\\sCentral\\sCatheter","Umbilical\\Venous\\Catheter","Umbilical\\sArterial\\sCatheter"]
+        "ParseValueTRT": ["CVC","Hickman","Port-A","Peripherall Inserted Central Catheter","Umbilical\\Venous\\Catheter","Umbilical\\sArterial\\sCatheter"]
     },
       {
         "item": "Xanth",
