@@ -19,7 +19,7 @@
         "mappings": [
             {
                     "key": "UDGNAME",
-                    "regex_str": "(Dextrose\\s+inj)",
+                    "regex_str": "(Dextrose\\s+inj)|(Sod\\s+chloride)",
                     "regex_flags": "ism"
             }       ,
             {
