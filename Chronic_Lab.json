@@ -1,5 +1,5 @@
 {
-    "Biochemical": ["K,","Na,","Ca++,","Ca,","P,","ALT,","Bil-T,","ALP,","GGT,","Alb,"], 
+    "Biochemical": ["K,","Na,","Ca,","P,","ALT,","Bil-T,","ALP,","GGT,","Alb,"], 
     "Blood": [
         "CBC","DC","HGB"
     ],
