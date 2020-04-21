@@ -1,10 +1,14 @@
 # JsonRegObject
 
 RegLab_RESSECT.json --> 未使用
-ExamRepor.json --> 未使用
-summary.json --> 未使用
-TpnOrder.json --> 未使用
-IOReg_QDC.json --> 有使用, 但非開放給羅醫師修改使用
+
+ExamRepor.json --> 未使用, 請勿修改
+
+summary.json --> 未使用, 請勿修改
+
+TpnOrder.json --> 未使用, 請勿修改
+
+IOReg_QDC.json --> 有使用, 請勿修改
 
 
 --------------------
