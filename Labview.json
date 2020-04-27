@@ -52,5 +52,23 @@
                 "position": 1
             }
         ]
+    },
+    {
+        "parser_name": "Labview value BNP",
+        "apply_condition": {
+            "name": "NT-pro-BNP",
+            "sample": null,
+            "lab": null,
+            "start_time": null,
+            "end_time": null
+        },
+        "mappings": [
+            {
+                "key": "bnp",
+                "regex_str": "結果:\\s+(\\d+(.\\d+)+)\\s+pg\\/mL",
+                "regex_flags": "im",
+                "position": 1
+            }
+        ]
     }
 ]
