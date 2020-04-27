@@ -1,5 +1,5 @@
 {
-    "Biochemical": ["Na,","K,","Ca\\+\\+","Bil-T","Bil-D","CRP","Alb"], 
+    "Biochemical": ["Na,","K,","Ca\\+\\+","Bil-T","Bil-D","CRP","Alb","Procalcitonin","MICRO\\sBILI"], 
     "Blood": [
         "CBC","DC","HGB"
     ],
