@@ -1,10 +1,10 @@
 {
-    "Biochemical": ["Na,","K,","Ca\\+\\+","Bil-T","Bil-D"], 
+    "Biochemical": ["Na,","K,","Ca\\+\\+","Bil-T","Bil-D","CRP","Alb"], 
     "Blood": [
         "CBC","DC","HGB"
     ],
-    "Cultivate": ["CULTURE"],
+    "Cultivate": ["CULTURE","Gram\\sstain"],
     "GAS": ["BLOOD GAS"],
     "Glu": [],
-    "Radiation": ["CHEST KUB"]
+    "Radiation": ["CHEST\\sKUB"]
 }
