@@ -104,7 +104,7 @@
         "mappings": [
             {
                 "key": "飲食類別",
-                "regex_str": "(Steam\\s+Inhalation\\s+With\\s+Medication)",
+                "regex_str": "(Steam\\s+Inhalation\\s+With\\s+Medication)|Breast",
                 "regex_flags": "ism",
                 "sample": null
             },
