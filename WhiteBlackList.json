@@ -4,7 +4,7 @@
         "mappings": [
             {
                     "key": "UDGNAME",
-                    "regex_str": "(Ampicillin\\s+sod\\s+for\\s+inj\\s+500\\s+mg)",
+                    "regex_str": "(Ampicillin)|(Cefotaxime)|(oxacillin)|(unasyn)|(soonmelt)|(tazocin)|(mepem)|(meropenem)|(imipenem)|(cefazolin)|(cefuroxime)|(cefotaxime)|(claforan)|(rocephin)|(ceftriax)|(ceftazi)|(cefepime)|(moxifloxacin)|(ciprofloxacin)|(levofloxacin)|(isepamicin)|(genta)|(exacin)|(metronidazole)|(teico)|(vancomycin)|(daptomycin)|(linezolid)|(fluconazole)|(ambisome)|(fungizone)|(zovirax)",
                     "regex_flags": "ism"
             },
             {
