@@ -24,7 +24,7 @@
             }       ,
             {
                     "key": "UDRPNAME",
-                    "regex_str": "a",
+                    "regex_str": "TPN",
                     "regex_flags": "ism"
             }     
         ]
