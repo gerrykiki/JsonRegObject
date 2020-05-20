@@ -1,0 +1,68 @@
+[
+        {
+            "item": "進食",
+            "parser_name": "lost",
+            "mappings": [
+                {
+                    "regex_str": "配方奶",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val2",
+                    "parameter": 0.8
+                },
+                {
+                    "regex_str": "母奶",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val2",
+                    "parameter": 0.7
+                }
+            ]
+        },
+        {
+            "item": null,
+            "parser_name": "nam",
+            "mappings": [
+                {
+                    "regex_str": "10%TPN",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val1",
+                    "parameter": 0.34
+                },
+                {
+                    "regex_str": "15%TPN",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val1",
+                    "parameter": 0.51
+                },
+                {
+                    "regex_str": "SMOFliquid",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val1",
+                    "parameter": 0.34
+                },
+                {
+                    "regex_str": "D10",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val1",
+                    "parameter": 0.34
+                },
+                {
+                    "regex_str": "D12",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val1",
+                    "parameter": 0.408
+                },
+                {
+                    "regex_str": "D5W",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val1",
+                    "parameter": 1.7
+                },
+                {
+                    "regex_str": "taita",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val1",
+                    "parameter": 0.34
+                }
+            ]
+        }
+    ]

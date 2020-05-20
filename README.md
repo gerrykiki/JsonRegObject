@@ -11,6 +11,35 @@ TpnOrder.json --> 未使用, 請勿修改
 IOReg_QDC.json --> 有使用, 請勿修改
 
 
+
+--------------------
+| Calories.json |
+--------------------
+
+	說明 : 
+		(1) item : QDC 類別,null是其他
+		(2) parser_name : 這個類別要用的參數
+		(3) mappings.regex_str:parse的關鍵字
+		(4) mappings.valueKey:要用哪個value
+		(5) mappings.parameter:係數
+	範例 :
+	        "item": "進食",
+            "parser_name": "lost",
+            "mappings": [
+                {
+                    "regex_str": "配方奶",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val2",
+                    "parameter": 0.8
+                },
+                {
+                    "regex_str": "母奶",
+                    "regex_flags": "ism",
+                    "valueKey": "inp_val2",
+                    "parameter": 0.7
+                }
+            ]
+
 --------------------
 | Chronic_Lab.json |
 --------------------
