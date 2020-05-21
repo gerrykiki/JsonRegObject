@@ -20,7 +20,7 @@
     {
         "parser_name": "Labview value Ca++",
         "apply_condition": {
-            "name": "ca++",
+            "name": "Ca\\+\\+",
             "sample": null,
             "lab": null,
             "start_time": null,
