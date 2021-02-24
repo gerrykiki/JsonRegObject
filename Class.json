@@ -8,7 +8,7 @@
         "mappings": [
             {
                 "key": "生化類別",
-                "regex_str": "(CHEST\\s+KUB\\s+\\(FOR\\s+BABY\\)\\s+PORTABLE)|(BRAIN\\s+ECHO\\s+\\(NBD\\))",
+                "regex_str": "Ca\+\+",
                 "regex_flags": "ism",
                 "sample": null
             },
