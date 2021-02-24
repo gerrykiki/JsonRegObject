@@ -11,13 +11,13 @@
     },
     {
         "item": "TPN",
-        "ParseValueUD": ["tpn\\s"],
+        "ParseValueUD": ["tpn\\s","TPN\\s"],
         "ParseValueTRT": []
     },
     {
         "item": "NPO",
         "ParseValueUD": [],
-        "ParseValueTRT": ["npo\\s"]
+        "ParseValueTRT": ["npo\\s","NPO\\s"]
     },
     {
         "item": "Anti",
