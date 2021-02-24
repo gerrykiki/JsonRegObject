@@ -8,7 +8,7 @@
         "mappings": [
             {
                 "key": "生化類別",
-                "regex_str": "Ca\+\+",
+                "regex_str": "Ca\\+\\+",
                 "regex_flags": "ism",
                 "sample": null
             },
