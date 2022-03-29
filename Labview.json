@@ -65,7 +65,7 @@
         "mappings": [
             {
                 "key": "bnp",
-                "regex_str": "結果:\\s+(\\d+(.\\d+)+)\\s+pg\\/mL",
+                "regex_str": "\\s+(\\d+(.\\d+)+)\\s.+pg\\/mL",
                 "regex_flags": "im",
                 "position": 1
             }
